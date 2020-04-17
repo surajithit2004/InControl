@@ -1,0 +1,61 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "chamberOfCommerceNumber": 1001
+    },
+    {
+      "chamberOfCommerceNumber": 2001,
+      "id": 2
+    },
+    {
+      "chamberOfCommerceNumber": 3001,
+      "id": 3
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "clientId": "101",
+      "date": "2019-11-21",
+      "chamberOfCommerceNumber": 1001,
+      "amount": 500
+    },
+    {
+      "clientId": "102",
+      "date": "2019-10-17",
+      "chamberOfCommerceNumber": 2001,
+      "amount": 2000,
+      "id": 2
+    },
+    {
+      "clientId": "301",
+      "date": "2018-10-17",
+      "chamberOfCommerceNumber": 3001,
+      "amount": 300,
+      "id": 3
+    }
+  ],
+  "risks": [
+    {
+      "id": 1,
+      "chamberOfCommerceNumber": 1001,
+      "riskLevel": "Low"
+    },
+    {
+      "id": 2,
+      "chamberOfCommerceNumber": 2001,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": 3,
+      "chamberOfCommerceNumber": 3001,
+      "riskLevel": "High"
+    },
+    {
+      "id": 4,
+      "chamberOfCommerceNumber": 4001,
+      "riskLevel": "Medium"
+    }
+  ]
+}
